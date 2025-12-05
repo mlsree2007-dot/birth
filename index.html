@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Website</title>
+  <title>Welcome</title>
   <style>
     body {
       margin: 0;
       padding: 0;
       background: url('background.jpeg') no-repeat center center fixed;
       background-size: cover;
-      text-align: center;
       font-family: Arial, sans-serif;
       color: white;
+      text-align: center;
     }
     .main-photo {
       margin-top: 50px;
@@ -20,6 +20,7 @@
       border-radius: 50%;
       border: 5px solid white;
       object-fit: cover;
+      box-shadow: 0 0 20px rgba(255,255,255,0.6);
     }
     h1 {
       margin-top: 20px;
@@ -27,20 +28,20 @@
       text-shadow: 2px 2px 5px black;
     }
     audio {
-      margin-top: 30px;
+      display: none; /* Hide audio controls */
     }
   </style>
 </head>
 <body>
-  <!-- Main Image in JPEG format -->
+  <!-- JPEG Photo -->
   <img src="myphoto.jpeg" alt="Main Photo" class="main-photo">
 
-  <!-- Message -->
-  <h1>🎉 Welcome to My Website 🎶</h1>
+  <!-- Greeting -->
+  <h1>🎉 happy birthday my uyire  🎶</h1>
 
-  <!-- Background Song -->
-  <audio controls autoplay loop>
-    <source src="song.mpeg" type="audio/mpeg">
+  <!-- Auto-playing Song -->
+  <audio autoplay loop>
+    <source src="song.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
 </body>
