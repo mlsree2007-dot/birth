@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('background.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+    .main-photo {
+      margin-top: 50px;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      border: 5px solid white;
+      object-fit: cover;
+    }
+    h1 {
+      margin-top: 20px;
+      font-size: 3em;
+      text-shadow: 2px 2px 5px black;
+    }
+    audio {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Main Image in JPEG format -->
+  <img src="myphoto.jpeg" alt="Main Photo" class="main-photo">
+
+  <!-- Message -->
+  <h1>🎉 Welcome to My Website 🎶</h1>
+
+  <!-- Background Song -->
+  <audio controls autoplay loop>
+    <source src="song.mpeg" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
